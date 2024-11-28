@@ -64,7 +64,3 @@ Bu araç yalnızca eğitim ve bireysel kullanım amaçlı geliştirilmiştir; k�
 
 * Kapak Fotoğrafları:
 Fotoğraflar Excel dosyasına eklenirken geçici bir klasöre kaydedilir(Temp). Bu klasörü silmeden önce işlem tamamlandığından emin olun.
-
-* Geliştirici Notları
-Bu kod açık kaynaklıdır. Kodun geliştirilmesine katkıda bulunmak veya sorun bildirmek isterseniz, lütfen GitHub üzerinde bir pull request gönderin.
-Geri bildirimleriniz için teşekkür ederim.
