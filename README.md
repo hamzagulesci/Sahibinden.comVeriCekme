@@ -1,66 +1,53 @@
-Bu yazılan kod Hamza Güleşci tarafından yapılmıştır.
-
 Sahibinden.com Veri Çekme Aracı
+Bu proje Hamza Güleşci tarafından geliştirilmiştir. Bu araç, sahibinden.com üzerinde yapılan arama sonuçlarını kolayca toplamak ve bunları Excel veya TXT formatına dönüştürmek amacıyla hazırlanmıştır.
+Kod yalnızca eğitim amaçlı yazılmıştır ve verilerin organize edilmesine yardımcı olmak için tasarlanmıştır.
 
-Bu proje, sahibinden.com üzerinde yapılan arama sonuçlarını kolayca toplamak ve bunları Excel veya TXT formatına dönüştürmek amacıyla geliştirilmiştir.
-Kod, eğitim amaçlı yazılmıştır ve yalnızca verilerin organize edilmesine yardımcı olmak için tasarlanmıştır.
+📋 Özellikler
+* Ürün adları, fiyatları, konum bilgileri ve linklerini toplar.
+* Ürünlerin kapak resimlerini indirip Excel dosyasına ekler (opsiyonel).
+* Veriler TXT veya Excel formatında kaydedilebilir.
+* Sayfa sayısı sınırlaması olmaksızın çok sayıda ürün verisi toplayabilir.
 
-//
+🚀 Kurulum ve Kullanım: Gerekli Adımlar
+1️⃣ ChromeDriver Yolu Ayarı
+Kod içindeki driver_path değişkenine, sisteminizde yüklü olan ChromeDriver'ın tam dosya yolunu ekleyin.
+Örnek: driver_path = "C:\\Users\\PC\\Desktop\\SahibindenVeriCekme\\chromedriver-win64\\chromedriver.exe"
 
-Özellikler:
+2️⃣ Arama URL'si Hazırlığı
+Sahibinden.com üzerinde arama yapın.
+Sayfa görüntüleme boyutunu 50 olarak ayarlayın.
+Tarayıcınızdaki URL'yi kopyalayın ve program size sorduğunda terminale yapıştırın.
 
-Ürün adları, fiyatları, konum bilgileri ve linklerini toplar.
-Ürünlerin kapak resimlerini indirip, Excel dosyasına ekler (opsiyonel).
-Veriler TXT veya Excel formatında kaydedilebilir.
-Sayfa sayısı sınırlaması olmadan çok sayıda ürün verisini toplayabilir.
-
-//
-
-Kurulum ve Kullanım:
-Gerekli Adımlar
-
-1) ChromeDriver Yolu Ayarı:
-
-Kod içindeki driver_path değişkenine sisteminizde yüklü olan ChromeDriver'ın tam dosya yolunu ekleyin.
-Örnek:
-
-* driver_path = "C:\\Users\\PC\\Desktop\\SahibindenVeriCekme\\chromedriver-win64\\chromedriver.exe"
-
-2) Arama URL'si Hazırlığı:
-
-Sahibinden.com üzerinde arama yapın ve sayfa görüntüleme boyutunu 50 olarak ayarlayın.
-Tarayıcınızdaki URL'yi kopyalayın ve size sorduğu zaman terminale yapıştırıp devam edin
-
-3) Kütüphane Gereksinimleri:
-
-Bu kodun çalışması için aşağıdaki Python kütüphaneleri yüklenmiş olmalıdır:
+3️⃣ Kütüphane Gereksinimleri
+Bu kodun çalışması için aşağıdaki Python kütüphanelerini yüklemeniz gerekir:
 
 * Selenium
 * Requests
-* PIL (Pillow)
+* Pillow (PIL)
 * OpenPyXL
-* Gerekli kütüphaneleri yüklemek için şu komutları çalıştırabilirsiniz:
+Kütüphaneleri yüklemek için:
+pip install selenium requests pillow openpyxl 
 
-pip install selenium requests pillow openpyxl
+4️⃣ Temp Klasörü
+Ürünlerin kapak resimlerini kaydetmek için proje dosyasında Temp adında bir klasör oluşturulmalıdır.
 
-4) Temp Klasörü:
+5️⃣ Kodun Çalıştırılması
+1) Gerekli kütüphaneler yüklendikten sonra kod dosyasını bir Python editöründe açın (örneğin VSCode).
+2) Kod çalıştırıldığında, şu adımları takip edin:
+* Dosya adını girin.
+* Kaydetmek istediğiniz dosya formatını seçin (Excel veya TXT).
+3) Program tamamlandığında dosyalar belirtilen formatta kaydedilecektir.
 
-Resimleri koyacağı bir klasör olmalı "Temp" adında bunu unutmayın. (Klasörde mevcut)
-
-5) Kodun Çalıştırılması:
-
-Eğer gerekli kütüphaneler henüz yüklenmediyse, pip install komutlarını kullanarak yükleyin üst tarafta belirttim.
-Kod dosyasını bir Python editöründe açın (Örnek VSCode).
-Size sırasıyla sorucak ilk dosya ismini sonra dosya tipini.
-Dosya ismini aldıktan sonra dosya formatının (Excel veya TXT) seçiminizi yapın.
-
-**Kullanım Sırasında Dikkat Edilmesi Gerekenler**
-
+⚠️ Kullanım Sırasında Dikkat Edilmesi Gerekenler
 * Yasal Sorumluluklar:
-Bu kodu kullanırken sahibinden.com'un kullanım şartlarına ve yasal düzenlemelere uyduğunuzdan emin olun. Tüm yasal sorumluluk kullanıcıya aittir.
+Kodun kullanımı sırasında sahibinden.com'un kullanım şartlarına ve yasal düzenlemelere uyduğunuzdan emin olun. Tüm yasal sorumluluk kullanıcıya aittir.
 
 * Eğitim Amacı:
 Bu araç yalnızca eğitim ve bireysel kullanım amaçlı geliştirilmiştir; kötüye kullanım hedeflenmemiştir.
 
 * Kapak Fotoğrafları:
-Fotoğraflar Excel dosyasına eklenirken geçici bir klasöre kaydedilir(Temp). Bu klasörü silmeden önce işlem tamamlandığından emin olun.
+Fotoğraflar Excel dosyasına eklenirken "Temp" klasörüne kaydedilir. Bu klasörü silmeden önce işlemlerin tamamlandığından emin olun.
+
+Not:
+Bu proje açık kaynaklıdır ve geliştirilmesi için katkılara açıktır. Herhangi bir hata veya geliştirme öneriniz varsa benimle iletişime geçebilirsiniz. 😊
+
