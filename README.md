@@ -9,9 +9,11 @@ Kod yalnızca eğitim amaçlı yazılmıştır ve verilerin organize edilmesine 
 * Sayfa sayısı sınırlaması olmaksızın çok sayıda ürün verisi toplayabilir.
 
 🚀 Kurulum ve Kullanım: Gerekli Adımlar
+
 1️⃣ ChromeDriver Yolu Ayarı
 Kod içindeki driver_path değişkenine, sisteminizde yüklü olan ChromeDriver'ın tam dosya yolunu ekleyin.
-Örnek: driver_path = "C:\\Users\\PC\\Desktop\\SahibindenVeriCekme\\chromedriver-win64\\chromedriver.exe"
+Örnek: 
+driver_path = "C:\\Users\\PC\\Desktop\\SahibindenVeriCekme\\chromedriver-win64\\chromedriver.exe"
 
 2️⃣ Arama URL'si Hazırlığı
 Sahibinden.com üzerinde arama yapın.
