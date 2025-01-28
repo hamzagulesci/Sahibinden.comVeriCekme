@@ -14,6 +14,9 @@ Kod yalnızca eğitim amaçlı yazılmıştır ve verilerin organize edilmesine 
 Kod içindeki driver_path değişkenine, sisteminizde yüklü olan ChromeDriver'ın tam dosya yolunu ekleyin.
 Örnek: 
 driver_path = "C:\\Users\\PC\\Desktop\\SahibindenVeriCekme\\chromedriver-win64\\chromedriver.exe"
+**ÖNEMLİ**
+ChromeDriver'ı bu linkten sizin kendi chrome tarayıcınızın sürümüyle aynı olmalı ya da yakın olmalı!
+https://googlechromelabs.github.io/chrome-for-testing/
 
 2️⃣ Arama URL'si Hazırlığı
 Sahibinden.com üzerinde arama yapın.
