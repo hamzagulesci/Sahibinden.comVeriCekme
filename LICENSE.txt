@@ -1,0 +1,16 @@
+MIT License
+
+Copyright (c) 2024 Hamza Güleşci
+
+Bu yazılım, sahibinden.com'dan veri çekme işlemi yapmak amacıyla serbestçe kullanılabilir, kopyalanabilir, değiştirebilir, birleştirilebilir, yayınlanabilir, dağıtılabilir, alt lisanslanabilir ve satılabilir. Ancak, aşağıdaki koşullara tabidir:
+
+1. Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, yazılımın tüm kopyalarında veya önemli bir bölümünde yer almalıdır.
+2. Bu yazılım, "olduğu gibi" sağlanır ve açık veya zımni hiçbir garanti verilmez. Özellikle, ticari amaçlarla uygunluk veya belirli bir amaca yönelik uygunlukla ilgili hiçbir garanti verilmez. Yazarlar veya telif hakkı sahipleri, yazılımın kullanımından kaynaklanan herhangi bir doğrudan veya dolaylı zarardan sorumlu tutulamaz.
+
+Ek Notlar:
+- Bu yazılım, sahibinden.com sitesinin veri çekme politikalarına ve kullanım şartlarına uygun olmalıdır. Bu yazılımın sahibi, sahibinden.com'un API kullanım şartları ve izinleri doğrultusunda kullanılması gerektiğini belirtmektedir.
+- Veri çekme işlemleri, sahibinden.com’un kurallarına ve yasal düzenlemelere uygun şekilde yapılmalıdır. 
+
+Bu lisans, yazılımı kullanan kişiye, yazılımı istediği gibi kullanma, değiştirme ve dağıtma izni verirken, yazılımın geliştiricilerine veya telif hakkı sahiplerine herhangi bir sorumluluk yüklemez.
+
+Bu yazılımın herhangi bir şekilde değiştirilmesi durumunda, yapılan değişiklikler ilgili kişiler tarafından belirtilmeli ve orijinal yazılım ile yapılan değişiklikler arasında net bir fark gösterilmelidir.
