@@ -48,6 +48,10 @@ pip install selenium requests pillow openpyxl
 * Yasal Sorumluluklar:
 Kodun kullanımı sırasında sahibinden.com'un kullanım şartlarına ve yasal düzenlemelere uyduğunuzdan emin olun. Tüm yasal sorumluluk kullanıcıya aittir.
 
+* Lisans
+
+Bu yazılım, **MIT Lisansı** ile lisanslanmıştır.
+
 * Eğitim Amacı:
 Bu araç yalnızca eğitim ve bireysel kullanım amaçlı geliştirilmiştir; kötüye kullanım hedeflenmemiştir.
 
